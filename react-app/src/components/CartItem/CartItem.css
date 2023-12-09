@@ -1,0 +1,127 @@
+.cart-item {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+    margin-bottom: 48px;
+    border-bottom: 1px solid rgba(79, 79, 79, 0.25);
+}
+
+.cart-item__img {
+    width: 184px;
+}
+
+.cart-item__name {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+}
+
+.cart-item__middle {
+    width: 100%;
+    display: inline-flex;
+    padding: 0 0 113.4px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16.6px;
+}
+
+.cart-item__delete {
+    display: flex;
+    padding: 8px 15.65px 9px 15.85px;
+    align-items: flex-start;
+    border-radius: 3.2px;
+    background: #3B71CA;
+    box-shadow: 0px 4px 9px -4px #3B71CA;
+    border: 0;
+    cursor: pointer;
+}
+
+.cart-item__end {
+    display: flex;
+    width: 277.33px;
+    padding: 0px 12px 98.87px 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+
+.cart-item__control {
+    display: flex;
+}
+
+.cart-item__quantity {
+    display: flex;
+    padding: 5.27px 131.33px 4.86px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+
+.cart-item__price {
+    color: #4F4F4F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.6px;
+}
+
+.cart-item__decrement, .cart-item__increment {
+    display: flex;
+    padding: 12.07px 15.65px 12.06px 15.85px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3.2px;
+    background: #3B71CA;
+    box-shadow: 0px 4px 9px -4px #3B71CA;
+    border: 0;
+    cursor: pointer;
+}
+
+.cart-item__delete:hover, .cart-item__decrement:hover, .cart-item__increment:hover {
+    background: #000;
+}
+
+svg {
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 12px;
+    }
+
+    .cart-item__img {
+        width: 318px;
+        height: 318px;
+    }
+
+    .cart-item__middle {
+        padding: 0 0 7.99px 26px;
+        margin-bottom: 8px;
+    }
+
+    .cart-item__end {
+        width: 100%;
+        padding: 0 26px 16.6px 26px;
+    }
+
+    .cart-item__control {
+        width: 100%;
+        gap: 8px;
+        align-self: start;
+    }
+
+    .cart-item__quantity {
+        width: 100%;
+    }
+
+    .cart-item__price {
+        align-self: start;
+    }
+}

@@ -1,0 +1,40 @@
+.main__header {
+    padding: 9px 0px 8px 0px;
+    background: #FBFBFB;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05), 0px 4px 12px 0px rgba(0, 0, 0, 0.07);
+}
+
+.main__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.main__title {
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.main__link {
+    color: #3B71CA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px
+}
+
+.main__cart {
+    width: 45px;
+    color: #3B71CA;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.main__link:hover, .main__cart:hover {
+    color: #183057;
+    text-decoration: underline;
+}
