@@ -2,8 +2,11 @@
     display: flex;
     gap: 24px;
     padding: 24px;
-    margin-bottom: 48px;
     border-bottom: 1px solid rgba(79, 79, 79, 0.25);
+}
+
+.cart-item:last-child {
+    margin-bottom: 48px;
 }
 
 .cart-item__img {
@@ -97,8 +100,7 @@ svg {
     }
 
     .cart-item__img {
-        width: 318px;
-        height: 318px;
+        width: 100%;
     }
 
     .cart-item__middle {
@@ -118,7 +120,9 @@ svg {
     }
 
     .cart-item__quantity {
-        width: 100%;
+        padding: 0;
+        padding-top: 5px;
+        width: 96vw;
     }
 
     .cart-item__price {

@@ -102,7 +102,7 @@
     }
 
     .cart__products {
-        width: 366px;
+        width: 96vw;
     }
 
     .cart__divider {
@@ -110,11 +110,15 @@
     }
 
     .cart__summary {
-        width: 366px;
+        width: 96vw;
         align-self: center;
+    }
+    .cart__summary-title {
+        padding: 16px 55vw 18px 24px;
     }
 
     .cart__summary-btn {
-        padding: 12px 100.91px 10.39px 101.09px;
+        width: 100%;
+        padding: 11px 0;
     }
 }
