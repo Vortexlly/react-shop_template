@@ -10,7 +10,7 @@ const store = configureStore({
 });
 
 store.subscribe(() => {
-    saveState(store.getState()); // Зберігаємо стан після кожного оновлення
+    saveState(store.getState());
   });
 
 export default store;
